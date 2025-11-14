@@ -75,7 +75,7 @@ __init__.py -->makes it a module
 
 ## .env
    1. security & cryptographic values
-      + <pre>``` SECRET_KEY ```</pre>
+      + <pre>SECRET_KEY </pre>
       + JWT signing keys
       + Auth creds
       --------------------------------------------------------------------------------------------------------------------------------------------------------------------
