@@ -56,7 +56,7 @@ __init__.py -->makes it a module
    4. adding fields later can break migrations
 - so we define ours early "accounts.User" for instance
 
-##rest_framework
+## rest_framework
 - controls the default behaviour of our API service ie:
    1. What auth every view uses
    2. how error are formatted 
@@ -64,3 +64,13 @@ __init__.py -->makes it a module
    4. how throthling works
    
    ------------------------------------------------------------------------------------------------------------
+
+   ## Postgress to SQL lite
+   + sql lite cannot handle concurrent writes
+   + sql lacks many production faetures we reral on 
+   + migrating later causes migrations and datatypes conflicts
+   + postgres gives reliabilty  from day one 
+
+   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+   
